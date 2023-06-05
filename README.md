@@ -35,21 +35,26 @@ GitHub Actions sera utilisé pour automatiser les tâches de CI/CD, y compris la
 
 L'apprenant sera responsable de :
 
-* La conception et le développement de l'infrastructure
-* Le déploiement et la gestion de l'application WordPress
+* La conception et le développement de l'infrastructure as code
+* La vérification du code terraform automatisé avant la publication sur le repo (sécurité)
+* Le déploiement et la gestion de l'application WordPress en automatique pour les changements de version
+* La scalabilité des services (php, WordPress et base de donnée)
 * La mise en place de la supervision
 * La mise en place de la CI/CD
+* La mise en place d'un système de backup multizone de la base de donnée
+* Un plan de reprise d'activité après sinistre
+* Monitoring du SLA et de la backup
 
 ## 4. Livrables
 
 À la fin du projet, l'étudiant devra fournir :
 
 * Le code source de l'infrastructure Terraform
-* Le code source de la charte Helm pour l'application WordPress
+* Le code source du chart Helm pour l'application WordPress
 * Les tableaux de bord Grafana
 * La configuration de Prometheus
 * Le pipeline de CI/CD dans GitHub Actions
-* La documentation du projet, y compris l'architecture de l'infrastructure, la description des composants, le processus de déploiement et la gestion de l'application, la configuration de la supervision et du CI/CD.
+* La documentation du projet, y compris l'architecture de l'infrastructure, la description des composants, le processus de déploiement et la gestion de l'application, le plan de reprise d'activité, la configuration de la supervision et du CI/CD.
 
 ## 5. Contraintes
 
